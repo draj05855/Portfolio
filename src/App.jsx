@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Tech from "./components/Tech";
-import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 
@@ -22,7 +21,6 @@ function App() {
           <Hero></Hero>
           <About></About>
           <Tech></Tech>
-          <Experience></Experience>
           <Project></Project>
           <Contact></Contact>
         </div>

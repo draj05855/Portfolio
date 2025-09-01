@@ -34,7 +34,7 @@ const Hero = () => {
               className="bg-garading-to-r from-pink-300 via-slate-500 to bg-purple-500 bg-clip-text text-3xl tracking-tight text"
             >
               {" "}
-              Full Stack Developer
+              Full Stack Developer | DSA Enthusiast
             </motion.span>
             <motion.p
               variants={Container(0)}

@@ -3,55 +3,31 @@ import project2 from "../assests/projects/project-2.jpeg";
 import project3 from "../assests/projects/project-3.jpeg";
 import project4 from "../assests/projects/project-4.jpeg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 YEARS of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, , and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated full stack developer and data structures & algorithms enthusiast with a strong passion for building scalable web applications and writing efficient code. With over 2 years of hands-on experience, I have developed expertise in modern front-end technologies like React.js and Next.js, as well as back-end technologies such as Node.js, Express, MySQL, and MongoDB.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+Alongside my development skills, my deep interest in DSA helps me approach problem-solving with optimized and logical solutions. My goal is to combine my software engineering knowledge with strong problem-solving skills to create innovative, performance-driven solutions that deliver real value to businesses and users.`;
 
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Practice Full Stack Developer",
-    company: "Bennett university",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+export const ABOUT_TEXT = `A curious mind who loves turning ideas into scalable web applications and solving tough problems with DSA.
+
+Over the last 2 years, I’ve explored the full stack — from crafting pixel-perfect UIs in React.js / Next.js, to designing solid back-end systems with Node.js, Express, MySQL, and MongoDB.
+
+But what excites me most is problem-solving. My interest in Data Structures & Algorithms makes me think beyond just writing code — I focus on writing clean, optimized, and future-proof solutions.`;
+
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "E-Learning Platform",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Attendence Managment System",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "React", "Firebase"],
   },
   {
     title: "Portfolio Website",
@@ -59,13 +35,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "React.js", "Express", "mySQL"],
   },
 ];
 
